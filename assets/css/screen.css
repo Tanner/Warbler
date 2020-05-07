@@ -108,6 +108,10 @@ body {
     font-weight: 700;
 }
 
+.header .nav a:hover {
+    text-decoration: none;
+}
+
 .intro {
     display: flex;
     justify-content: center;
