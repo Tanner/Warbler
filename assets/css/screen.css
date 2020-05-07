@@ -62,6 +62,14 @@ body {
     font-weight: 900;
 }
 
+.header .title a {
+    color: white;
+}
+
+.header .title a:hover {
+    text-decoration: none;
+}
+
 .header .nav {
     display: flex;
     flex-direction: row;
