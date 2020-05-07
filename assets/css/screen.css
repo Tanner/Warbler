@@ -158,6 +158,12 @@ body {
 .post {
     display: flex;
     justify-content: center;
+
+    padding-bottom: 32px;
+}
+
+.post:last-child {
+    padding-bottom: 0;
 }
 
 .post-container {
