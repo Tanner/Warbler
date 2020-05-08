@@ -174,20 +174,22 @@ body {
     margin: 0;
 }
 
-.post {
-    display: flex;
-    justify-content: center;
+.inner {
+    margin: 0 auto;
+    max-width: 660px;
+    width: 100%;
+}
 
+.post {
     padding-bottom: 32px;
+}
+
+.post-container {
+    padding: 0 30px;
 }
 
 .post:last-child {
     padding-bottom: 0;
-}
-
-.post-container {
-    width: 660px;
-    padding: 0 32px;
 }
 
 .post-header a {
@@ -207,6 +209,16 @@ body {
     font-size: 14px;
     color: #666666;
     text-transform: uppercase;
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-content > * {
+    min-width: 100%;
 }
 
 .post-content pre {
