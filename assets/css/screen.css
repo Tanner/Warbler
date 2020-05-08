@@ -202,6 +202,8 @@ body {
 }
 
 .post-content pre {
+    max-width: 100%;
+    overflow-x: auto;
     padding: 0 0 1.5em 0;
 }
 
