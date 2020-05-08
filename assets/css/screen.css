@@ -35,16 +35,24 @@ body {
     margin: 0 auto;
 }
 
-.header .social {
-    height: 24px;
-    width: 24px;
-
+.header .icons {
     margin: 24px 0;
 
     align-self: flex-end;
 }
 
-.header .social svg path {
+.header .icons svg {
+    height: 24px;
+    width: 24px;
+
+    margin-left: 8px;
+}
+
+.header .icons svg path {
+    fill: white;
+}
+
+.header .icons svg circle {
     fill: white;
 }
 
@@ -347,12 +355,18 @@ body {
     color: #666666;
 }
 
-.footer .social {
+.footer .icons svg {
     height: 24px;
     width: 24px;
+
+    margin-left: 8px;
 }
 
-.footer .social svg path {
+.footer .icons svg path {
+    fill: #2CA4FE;
+}
+
+.footer .icons svg circle {
     fill: #2CA4FE;
 }
 

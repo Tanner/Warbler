@@ -1,8 +1,9 @@
 <div class="header">
     <div class="header-content">
-        <div class="social">
+        <div class="icons">
+                <a href="{{@site.url}}/rss/" title="RSS" target="_blank" rel="noopener">{{> "icons/rss"}}</a>
                 {{#if @site.twitter}}
-                    <a class="social-link social-link-tw" href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
+                    <a href="{{twitter_url @site.twitter}}" title="Twitter" target="_blank" rel="noopener">{{> "icons/twitter"}}</a>
                 {{/if}}
         </div>
         <div class="header-trailing">
