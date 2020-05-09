@@ -337,6 +337,9 @@ body {
     margin: 0 .5em;
 }
 
+.kg-width-wide { }
+.kg-width-full { }
+
 .kg-gallery-container {
     display: flex;
     flex-direction: column;
