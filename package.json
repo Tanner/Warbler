@@ -22,6 +22,11 @@
         "email": "tanner@tannersmith.me",
         "url": "https://tannersmith.me"
     },
+    "keywords": [
+        "ghost",
+        "theme",
+        "ghost-theme"
+    ],
     "devDependencies": {
         "@tryghost/release-utils": "0.6.1",
         "autoprefixer": "9.7.6",
