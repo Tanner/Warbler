@@ -364,6 +364,28 @@ body {
     margin: 0 0 0 0.75em;
 }
 
+.pagination {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 24px;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 600px;
+}
+
+.pagination-title {
+    color: #2CA4FE;
+}
+
+.pagination-arrow {
+    font-size: 32px;
+}
+
 .footer {
     height: 160px;
     background: #FAFAFA;
