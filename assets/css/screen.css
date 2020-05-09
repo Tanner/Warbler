@@ -12,6 +12,10 @@ body {
     font-family: -apple-system, system-ui, "Helvetica Neue", Arial, sans-serif;
 }
 
+.main {
+    margin-top: 48px;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -149,8 +153,6 @@ body {
     background-color: #FAFAFA;
 
     border-bottom: 1px solid #EFEFEF;
-
-    margin-bottom: 48px;
 }
 
 .intro-content {
