@@ -1,10 +1,21 @@
 
 @import "global.css";
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     background: #fff;
 
     font-family: -apple-system, system-ui, "Helvetica Neue", Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
 .img {
@@ -172,6 +183,21 @@ body {
     color: #666666;
 
     margin: 0;
+}
+
+.error-code {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 160px;
+    color: #2CA4FE;
+    text-align: center;
+}
+
+.error-code + .footer {
+    margin-top: 0;
 }
 
 .inner {
