@@ -220,6 +220,10 @@ body {
     padding-bottom: 0;
 }
 
+.post-header {
+    padding-bottom: 16px;
+}
+
 .post-header a {
     text-decoration: none;
     color: #333;
@@ -255,9 +259,31 @@ body {
     padding: 0 0 1.5em 0;
 }
 
+.post-content hr {
+    width: 660px;
+
+    border-top: 1px solid #EFEFEF;
+}
+
+figure figcaption {
+    text-align: center;
+
+    color: #aaa;
+}
+
+.kg-card {
+    display: flex;
+    justify-content: center;
+
+    /* This matches p */
+    margin: 0 0 1.5em;
+}
+
 .kg-bookmark-card {
     width: 100%;
     position: relative;
+
+    flex-direction: column;
 }
 
 .kg-bookmark-container {
@@ -337,8 +363,17 @@ body {
     margin: 0 .5em;
 }
 
-.kg-width-wide { }
-.kg-width-full { }
+.kg-image-card {
+    width: 660px;
+}
+
+.kg-image-card.kg-width-wide {
+    width: 750px;
+}
+
+.kg-image-card.kg-width-full {
+
+}
 
 .kg-gallery-container {
     display: flex;
