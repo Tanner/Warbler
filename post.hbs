@@ -10,6 +10,9 @@
             <div class="post-container">
                 <div class="post-header">
                     <a href="{{url}}"><h2>{{title}}</h2></a>
+                    {{#if custom_excerpt}}
+                    <p class="post-header-excerpt">{{custom_excerpt}}</p>
+                    {{/if}}
                     <span><time datetime="{{date format="YYYY-MM-DD"}}">{{date format="MMMM DD, YYYY"}}</time> &bull; {{reading_time}}</span>
                 </div>
                 <div class="post-content">

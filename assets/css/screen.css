@@ -247,6 +247,16 @@ body {
     text-transform: uppercase;
 }
 
+.post-header-excerpt {
+    margin: 16px 0 0;
+    color: var(--midgrey);
+    font-family: Georgia, serif;
+    font-size: 2.3rem;
+    line-height: 1.4em;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+
 .post-content {
     display: flex;
     flex-direction: column;
