@@ -230,15 +230,19 @@ body {
 
 .post-header a {
     text-decoration: none;
-    color: #333;
+    color: #090a0b;
 }
 
 .post-header h2 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
 
     margin: 0 0 5px 0;
     line-height: 1;
+}
+
+.post-header-full h2 {
+    font-size: 48px;
 }
 
 .post-header span {
@@ -250,10 +254,8 @@ body {
 .post-header-excerpt {
     margin: 16px 0 0;
     color: var(--midgrey);
-    font-family: Georgia, serif;
     font-size: 2.3rem;
     line-height: 1.4em;
-    font-weight: 300;
     padding-bottom: 16px;
 }
 
@@ -976,7 +978,7 @@ Usage (In Ghost editor):
     }
 
     .intro-emoji {
-        padding: 32px 0 0 0;
+        padding: 32px 0 0 8px;
     }
 
     .intro-text {
