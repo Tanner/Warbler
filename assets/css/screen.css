@@ -3,6 +3,7 @@
 
 :root {
     --blue: #2CA4FE;
+    --light-blue: #99D3FF;
 }
 
 html {
@@ -61,18 +62,22 @@ body {
 }
 
 .header .icons svg {
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
+
+    padding: 4px;
 
     margin-left: 8px;
 }
 
-.header .icons svg path {
+.header .icons svg * {
     fill: white;
+
+    transition: fill 0.2s ease-in-out;
 }
 
-.header .icons svg circle {
-    fill: white;
+.header .icons svg:hover * {
+    fill: rgba(255, 255, 255, 0.7);
 }
 
 .header .header-trailing {
@@ -933,18 +938,22 @@ Usage (In Ghost editor):
 }
 
 .footer .icons svg {
-    height: 24px;
-    width: 24px;
+    height: 32px;
+    width: 32px;
+
+    padding: 4px;
 
     margin-left: 8px;
 }
 
-.footer .icons svg path {
+.footer .icons svg * {
     fill: var(--blue);
+
+    transition: fill 0.2s ease-in-out;
 }
 
-.footer .icons svg circle {
-    fill: var(--blue);
+.footer .icons svg:hover * {
+    fill: var(--light-blue);
 }
 
 @media (max-width: calc(1086px + 32px)) {
